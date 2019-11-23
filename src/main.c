@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-int main(void){
-	printf("hello, world!");
+int main(int argc){
+	if (argc >= 2){
+		printf("hello, world!");
+	}
+	
 	return 0;
 }
